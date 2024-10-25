@@ -5,7 +5,7 @@
         <h1>Home</h1>
         <nav>
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ route('user.index') }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
             </ol>
         </nav>
     </div>
@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12 text-right mb-2 mt-2" style="">
-                            <a class="btn btn-sm btn-primary button button-3d" href="">
+                            <a class="btn btn-sm btn-primary button button-3d" href="{{route("register")}}">
                                 Novo Usuário <i class="fa fa-plus-square"> </i>
                             </a>
                         </div>
