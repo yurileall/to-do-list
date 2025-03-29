@@ -4,7 +4,7 @@
 <head>
     @include('partials.head')
 </head>
-
+<script src="{{ asset('js/app.js') }}"></script>
 <body>
     <x-header />
 
@@ -18,5 +18,9 @@
 
     @include('partials.scripts')
 </body>
+
+<footer>
+    <script src="{{ asset('assets/js/logout.js') }}"></script>
+</footer>
 
 </html>

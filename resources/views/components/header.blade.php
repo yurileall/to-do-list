@@ -45,7 +45,7 @@
                         <hr class="dropdown-divider">
                     </li>
                     <li>
-                        <a id="logout-button" class="dropdown-item d-flex align-items-center" href="#">
+                        <a id="logout_button" class="dropdown-item d-flex align-items-center">
                             <i class="bi bi-box-arrow-right"></i> Sair
                         </a>
 
