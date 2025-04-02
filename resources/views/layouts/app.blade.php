@@ -3,6 +3,9 @@
 
 <head>
     @include('partials.head')
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
 </head>
 <script src="{{ asset('js/app.js') }}"></script>
 <body>
